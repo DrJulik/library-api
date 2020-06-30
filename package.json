@@ -1,0 +1,19 @@
+{
+	"name": "libraryapi",
+	"version": "1.0.0",
+	"description": "API for Vaughan Public Libraries",
+	"main": "server.js",
+	"scripts": {
+		"start": "NODE_ENV=production node server",
+		"dev": "nodemon server"
+	},
+	"author": "Yuliy Sozin",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.4"
+	}
+}
